@@ -1,7 +1,7 @@
 
 lib_LIBRARIES = libsafeclib.a
 
-libsafeclib_a_CPPFLAGS = -Iinclude
+libsafeclib_a_CFLAGS = -Iinclude
 
 libsafeclib_a_SOURCES = \
 	safeclib/strisdigit_s.c \
