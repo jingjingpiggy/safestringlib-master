@@ -1,6 +1,7 @@
-
+# target
 lib_LIBRARIES = libsafeclib.a
 
+# name of lib_LIBRARIES
 libsafeclib_a_CFLAGS = -Iinclude
 
 libsafeclib_a_SOURCES = \
